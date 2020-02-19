@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".List_View_Search1_Activity"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="3dp"
+        android:layout_gravity="center_horizontal">
+        <TableRow>
+            <RelativeLayout
+                android:id="@+id/btnLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/imgLeft"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitXY"/>
+                <TextView
+                    android:id="@+id/txtLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/imgLeft"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/txtFlowerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|normal"
+                    android:textColor="@color/colorFlowerName"
+                    android:textSize="22dp"/>
+
+                <TextView
+                    android:id="@+id/txtFlowerDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:layout_below="@+id/txtFlowerName"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorMore2"
+                    android:text="more.."
+                    android:textSize="12dp"
+                    android:layout_below="@+id/txtFlowerDescription"/>
+
+
+            </RelativeLayout>
+
+
+            <!--<RelativeLayout
+                android:id="@+id/btnRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:padding="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:id="@+id/imgRight"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitXY"/>
+                <TextView
+                    android:id="@+id/txtRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/imgRight"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>-->
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

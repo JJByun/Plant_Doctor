@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.plantdoctor">
+    <!-- permission -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- internet Permission -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- camera Permission -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- storage Permission -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".AppInformationActivity"></activity>
+        <activity android:name=".LicenseInformationActivity" />
+        <activity android:name=".InformationActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".List_View_Search1_Activity" />
+        <activity android:name=".DiagnosisActivity" />
+        <activity android:name=".Search2Activity" />
+        <activity android:name=".Diagnosis1Activity" />
+        <activity android:name=".Search1Activity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

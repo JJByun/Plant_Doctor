@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="1000"/>
+    <!--  fromAlpha : 시작 알파 값
+          toAlpha : 마무리되는 알파 값
+          duration : 애니메이션 실행 시간-->
+
+    <!--
+    <translate
+        android:fromXDelta="-50%"
+        android:toXDelta="50%"
+        android:duration="3000"
+        android:repeatCount="infinite"
+        android:repeatMode="restart"/>-->
+    <!-- fromXDelta : 시작되는 x 지점
+         toXDelta : 끝나는 x 지점
+         duration : 애니메이션 반복 시간
+         repeatCount : 반복 횟수 지정
+         repeatMode : 반복 세팅-->
+
+    <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:repeatCount="infinite"
+        android:duration="4000"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromDegrees="0"
+        android:toDegrees="360">
+    </rotate>
+
+
+</set>

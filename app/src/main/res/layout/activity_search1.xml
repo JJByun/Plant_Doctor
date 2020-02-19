@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search1Activity">
+
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- scrollView 코드 -->
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        &lt;!&ndash; 식물 설명 종류 &ndash;&gt;
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="3dp"
+            android:layout_gravity="center_horizontal">
+
+            <TableRow>
+                <RelativeLayout
+                    android:id="@+id/btnCroton"
+                    android:onClick="onClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imgCroton"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/img_croton"
+                        android:scaleType="fitXY"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Croton"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/imgCroton"
+                        android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/btnAnthurium"
+                    android:onClick="onClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/imgAnthurium"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/img_anthurium"
+                        android:scaleType="fitXY"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Anthurium"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/imgAnthurium"
+                        android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+
+            </TableRow>
+
+
+            &lt;!&ndash; 두번째 줄 &ndash;&gt;
+            <TableRow
+                android:layout_marginTop="10dp">
+                <RelativeLayout
+                    android:id="@+id/btnMothOrchid"
+                    android:onClick="onClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imgMothOrchid"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/img_moth_orchid"
+                        android:scaleType="fitXY"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Moth Orchid"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/imgMothOrchid"
+                        android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/btnGoldenPothos"
+                    android:onClick="onClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/imgGoldenPothos"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/img_golden_photos"
+                        android:scaleType="fitXY"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Golden Pothos"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/imgGoldenPothos"
+                        android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+
+            </TableRow>
+
+            &lt;!&ndash; 세번째  줄&ndash;&gt;
+
+            <TableRow
+                android:layout_marginTop="10dp">
+                <RelativeLayout
+                    android:id="@+id/btnDracaenaMarginata"
+                    android:onClick="onClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imgDracaenaMarginata"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/img_dracaena_marginata"
+                        android:scaleType="fitXY"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dracaena Marginata"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/imgDracaenaMarginata"
+                        android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/btnLuckyBamboo"
+                    android:onClick="onClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/imgLuckyBamboo"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/img_lucky_bamboo"
+                        android:scaleType="fitXY"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lucky Bamboo"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/imgLuckyBamboo"
+                        android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+
+            </TableRow>
+
+            &lt;!&ndash; 네번째 줄 &ndash;&gt;
+
+            <TableRow
+                android:layout_marginTop="10dp">
+                <RelativeLayout
+                    android:id="@+id/btnSnakePlant"
+                    android:onClick="onClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imgSnakePlant"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/img_snake_plant"
+                        android:scaleType="fitXY"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Snake Plant"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/imgSnakePlant"
+                        android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/btnPeaceLily"
+                    android:onClick="onClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/imgPeaceLily"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/img_peace_lily"
+                        android:scaleType="fitXY"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Peace Lily"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/imgPeaceLily"
+                        android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+
+            </TableRow>
+
+            &lt;!&ndash; 다섯번째 줄&ndash;&gt;
+            <TableRow
+                android:layout_marginTop="10dp">
+                <RelativeLayout
+                    android:id="@+id/btnPonytailPalm"
+                    android:onClick="onClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imgPonytailPalm"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/img_ponytail_palm"
+                        android:scaleType="fitXY"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ponytail Palm"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/imgPonytailPalm"
+                        android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/btnSyngonium"
+                    android:onClick="onClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/imgSyngonium"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/img_syngonium2"
+                        android:scaleType="fitXY"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Syngonium"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/imgSyngonium"
+                        android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>-->
+
+</LinearLayout>
+
+
+

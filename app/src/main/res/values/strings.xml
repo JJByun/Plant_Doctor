@@ -1,0 +1,321 @@
+<resources>
+    <string name="app_name">Plant Doctor</string>
+
+    <!-- search1 상세 설명 string -->
+
+    <!-- search2 상세 설명 String -->
+    <string name="croton_description">"1. mealy bugs :\n" +
+                "- symtom : \n" +
+                " leaf gets white spot\n" +
+                "Mealybugs are small, white insects that feed on the sap in plants. Although mealybugs are small, they can cause significant damage to your plants and garden if left untreated.\n" +
+                " - cure : \n" +
+                "   Killing Small Infestations with Rubbing Alcohol\n" +
+                "   Using Neem Oil for Potted or Shaded Plants\n" +
+                "   Using Insecticides\n" +
+                "\n" +
+                "2. scale insects : \n" +
+                "- symtom : \n" +
+                " green insects get stuck in stem and leaves\n" +
+                "Sap-sucking pests attach themselves to the twigs, leaves, branches and fruits of host plants.\n" +
+                " - cure : \n" +
+                "   Rub the scales off your plant with brush\n" +
+                "   Try using insecticidal soap\n" +
+                "   Horticultural Oil Precautions\n" +
+                "   Prune away parts of the plant that are infested with scales"</string>
+
+    <string name="Syngonium_description">"1. Bacterial Leaf Blight\n" +
+                "A. symptoms : Translucent spots on leaf margins become dull green with bright\n" +
+                "yellow halos. Spot size and shape are limited by leaf veins.\n" +
+                "B. cause : Erwinia, Pseudomonas, Xanthomonas\n" +
+                "C. management : Purchase plants free from the disease. Discard infected plants.\n" +
+                "Avoid overhead watering. Apply a bactericide to protect plants.\n" +
+                "\n" +
+                "2. Bacterial Stem Rot\n" +
+                "A. Symptoms : Very dark green spots engulf the leaf in a soft rot which smells foul.\n" +
+                "Infected tissue falls away giving the leaf a tattered appearance. When stems are\n" +
+                "infected, lower leaves wilt and die.\n" +
+                "B. Cause : Erwinia\n" +
+                "C. Management : Purchase plants free of the disease. Discard infected plants and\n" +
+                "water in a manner that keeps the surface of the plants dry at all times.\n" +
+                "\n" +
+                "3. Myrothecium Leaf Spot\n" +
+                "A. Symptoms : Tan to dark brown leaf spots have concentric rings and fungal fruiting\n" +
+                "structures.\n" +
+                "B. Cause : Myrothecium roridum\n" +
+                "C. Management : Do not apply excessive amounts of nitrogen fertilizer. Protect\n" +
+                "leaves from wounding. Apply a fungicide to protect plants.\n" +
+                "\n" +
+                "4. Phosphorus Deficiency\n" +
+                "A. Symptoms : Plants are stunted. Lower leaves have dead spots.\n" +
+                "B. Cause : Lack of fertilization\n" +
+                "\n" +
+                "C. Management : Apply a balanced fertilizer solution."</string>
+
+    <string name="moth_orchid_description">"1. Bacterial Brown Spot\n" +
+                "Bacterial Brown Spot is a bacterial disease that will appear on the orchid leaves as a small blister-like\n" +
+                "spot that will eventually turn brown and produce a bacterial liquid.\n" +
+                "2. Black Rot\n" +
+                "Black Rot is an extremely contagious disease and turns parts of the orchid black.\n" +
+                " The disease usually starts on the leaves, shoots, or roots and can spread quickly, particularity when the\n" +
+                "temperature and humidity are high.\n" +
+                "3. Botrytis\n" +
+                "Botrytis is a fungus that shows up as little black or light brown spots on the orchid’s flowers.\n" +
+                "\n" +
+                "4. Collar Rot\n" +
+                "Collar Rot, also known as Southern Blight, is a rapid collapse and rotting of the roots and lower parts of\n" +
+                "the leaves."</string>
+
+    <string name="golden_photos_description">
+        "[Bacterial wilt disease]\n
+        Bacterial wilt disease is most commonly observed in com- mercial production of pothos at the single-node rooting stage. Infected cuttings fail to root and losses in propaga- tion beds can approach 100%
+
+SYMPTOMS
+Bacterial wilt causes pothos leaves to wilt. Veins in the leaves and stems turn black. If infected stems are cut and placed in water, one can observe millions of bacteria being released. It is common to observe bacterial ooze on recently cut stems.
+
+CAUSAL AGENT
+The bacteria Ralstonia solanacearum causes this disease. The bacteria have the ability to swim, but the primary movement is passive, with bacteria being transported in irrigation water. The bacteria infect through root hairs and wounds during propagation and handling.
+
+CONTROL AND TREATMENT
+Symptoms are especially severe during warm periods of the year.
+Bacterial multiplication is rapid, and an aggressive sanita- tion program will be needed. If an outbreak occurs, plants, soil, and pots should be bagged and removed from the nursery. Benches and tools should be disinfected before any replanting is done. There are no effective bactericides that can be used in a nursery setting.\n
+        [PhytopthoraRootRot]\n
+        The most common disease infecting pothos is Phytophthora root rot. This disease is frequently introduced via imported propagative cuttings
+
+Symptoms
+Infection usually starts in the roots, eventually spreading to leaves and throughout the whole plant. Phytophthora root rot causes pothos leaves to turn dark brown to black. The veins in the leaves and stems do not blacken with infection.
+
+Causal Agent
+A watermold, Phytophthora nicotianae, causes this disease. Under irrigation, Phytophthora produces zoospores. Zoo- spores have the ability to swim and spread the infection. Zoospores can remain active for hours to days depending on greenhouse temperature and moisture. The disease can easily be spread through contaminated water and water splashed from infected plants during overhead irrigation.
+
+Control and Treatment
+In commercial greenhouse production, exclusion is the best method of controlling this disease. Pothos plants expressing symptoms should be discarded. Because Phytophthora zoo- spores are readily transported via water, reducing irrigation volumes will help control disease spread. Remaining plants should be treated with an appropriate fungicide, such as aluminum tris/Fosetyl-al (Aliette® WDG), dimethomorph (Stature®), dimethomorph + ametoctradin (OrvegoTM), fluopicolide (AdornTM), and phosphorous acid (AludeTM, K-Phite®, Vital®), to effectively control Phytophthora. For more information on fungicide selection, please visit the Homeowner’s Guide to Fungicides for Lawn and Landscape Disease Management or the Fungicide Resistance Action Committee’s (FRAC) Classification Scheme of Fungicides According to Mode of Action."
+    </string>
+
+    <string name="anthurium_description">
+        [Anthurium]
+Commonly known as flamingo flower, Anthurium has nearly 1,000 species, making it the largest genus in the plant family Araceae. Anthruium is native to tropical America, Mexico, Costa Rica, Cuba, and Brazil. Growth habits vary depending on species.
+
+1. Bacterial Blight
+- symtom :
+ The first visible symptoms are yellowed, water-soaked lesions along the leaf margins that grow rapidly to form dead V-shaped lesions characteristics of this disease.
+ - cure :
+   Lower Greenhous humidity and temperature by increasing air circulation and venting the production facility
+   Clean, tissue-cultured plantlets should be used when establishing new plantings
+   Discard immediately
+
+2. Bacterial Wilt
+- symtom :
+ Leaf yellowing is usually the first symptom obeserved
+ - cure :
+   A strict sanitation program is most successful way to stop the spread of this pathogen
+   Fungicides that contain phosphorous acid have also been shown to be effective in preventing infection
+
+3. Rhizoctonia Root Rot
+- symtom :
+ Young, tender stems are girdled, become water soaked, and are unable to support the weight of the plant
+ - cure :
+   Never incorporate native soils into media mixes without steam sterilizing
+   Many fungicides are effective against outbreaks of Rhizoctonia
+
+4. Phytophthora/Pythium
+- symtom :
+ Exhibit wilting, leaf yellowing, and root dieback. The foliage may exhibit black to brown leaf lesions.
+ - cure :
+   Use well-drained, synthetic soil mixes
+   Should be discarded and the rest of the production facility should be treated with a fungicide drench
+
+5. Black Nose Disease
+- symtom :
+ The first symtoms observed are small, brown to black flecks on the floral spadix. These spots rapidly enlarge, become watery, turn brown to black, and may totally encompass the spadix
+ - cure :
+   A strict sanitation program is crucial to control the spread of this pathogen in a production facility
+   Fungicides containing mancozeb are effective
+    </string>
+
+    <string name="lucky_bamboo_description">
+        Lucky bamboo is an indoor plant that is attractive, popular, and easy to care for. It is also considered to
+be an auspicious plant that brings good luck according to the principles of feng shui and vastu
+shastra. Lucky bamboo is a great indoor plant that is very easy to grow. Not only does it do well in
+soil, but it does well in plain water, as well. Properly cared for, it can grow to about 2 to 3 feet in
+height.
+-How to Grow in Water
+Fill the bottom of a container with pebbles and add enough water to rise to a couple of inches above
+the pebbles. The roots of the plant should be submerged.
+Change the water everyone to two weeks in order to prevent rotting. The water should always look
+clear and smell fresh.
+-How to Grow in Soil
+Use well-aerated potting soil with good drainage.
+Water so that the soil is kept moist but not waterlogged.
+
+1. bamboo mites
+a. symptoms
+A heavy infestation of the pests can cause bamboo to take on a yellow-green appearance as
+photosynthesis becomes impaired.
+
+b. management
+A small infestation of bamboo spider mites can be controlled with insecticidal soap, a pyrethrin-
+based spray or a contact pesticide. However, sprays aren’t usually effective for severe
+infestations because the plant’s height and clumping nature prevent the substances from
+reaching the pests. Additionally, it is difficult to reach mites hiding under the dense webbing. A
+systemic miticide approved for bamboo mites is often more effective for bamboo mite control
+because it is absorbed throughout the plant and kills the pests as they feed.
+
+2. powdery mildew
+a. symptoms
+Powdery mildew is the name given to diseases resulting from infection by fungi that produce a
+white, powdery growth on the surfaces of leaves and sometimes other plant parts. Leaves may
+yellow, then brown and die. Infected tissues may be distorted and misshapen.
+
+b. management
+It depends on what you are calling mildew.
+If you have an algae build up in the water or around the roots of the lucky bamboo, you need to
+clean the container and any pebbles with soapy water and wipe off the roots and the stalks with
+a moist cloth and refill the container.
+
+If you have lesions on the stalk, you will need to remove the lesions. In this case you may need
+to create new stalks from the top of the stalk. You might want to read this lucky bamboo post, it
+details how to remove diseased parts of lucky bamboo.
+If you have white cottony substance on the stalks, it could actually be an insect called scale.
+You can wipe this insect off and clean the container as a method of control. If the scale
+persists, use an insecticide that is safe for houseplants.
+If you have a type of fungus that is rust or sooty in color, we have a whole other ballgame.
+These would need to be treated with a fungicide. The hardest part is finding a fungicide safe
+for Dracaena. You could try daconil. It is a general purpose fungicide.
+    </string>
+
+    <string name="dracaena_marginata_description">
+    Dracaena Marginata \n
+Dracaena marginata is an evergreen tree that can grow eight to 15 feet high and three to eight feet
+wide with proper care. It has stiff purplish-red leaves and slim, curving stalks for trunks. Since it
+cannot tolerate low light but is not frost hardy, it is often grown indoors. They make excellent
+houseplants because they are drought tolerant and among the more forgiving dracaena plants.
+
+1. insect pests
+a. symptoms
+Visible pests, damaged leaves, or stunted growth may indicate an infestation of thrips, shore
+flies, scales, mealybugs, or fungus gnats.
+
+b. management
+Dracaena plants are generally free from serious insect or disease problems. However, you
+should watch out for mealybugs, spider mites, and scale. Mealybugs and scale can both be
+treated with an insecticide that contains pyrethrin.
+
+2. soil
+a. symptoms
+Tan or brown coloring on the white areas of leaves and dead or yellow leaf tips may indicate
+fluoride toxicity or alkaline soil.
+
+b. managements
+Make sure container is well-drained. Use a potting soil with a loamy soil (a mixture of silt, sand,
+and clay), along with some peat. Like all Dracaenas, the marginata flourishes in a humid
+atmosphere. Mist the leaves occasionally, and keep the plant away from dry rooms with
+excessive central heating.
+
+3. temperature
+a. symptoms
+Yellow or dead bands across leaves can indicate your plant got too cold.
+
+b. managements
+Dracaena prefers temperatures ranging from 65 – 78℉ during the day. Night temperatures can
+drop about ten degrees cooler, but cold drafts and temperatures below 55℉ will harm the plant.
+Make sure that you display your dracaena away from any heating or cooling appliances.
+Natural room humidity is fine seeing as the dracaena is such a hardy houseplant, but it does
+prefer the higher humidity of its natural rainforest habitat.
+    </string>
+
+    <string name="snake_plant_description">
+        Sansevieria trifasciata is a species of flowering plant in the family Asparagaceae, native to tropical West Africa from
+Nigeria east to the Congo. It is most commonly known as the snake plant, Saint George is sword, mother-in-law is
+tongue, and viper is bowstring hemp, among other names.
+1. Purulent disease
+A. Symptoms : Brown spots appear on its leaves.
+B. Cause : Too much watering causes fungus to grow.
+C. Management : Snake plant needs its soil to dry out a bit before the next watering. If water gets on the
+leaves, fungus may develop.
+    </string>
+
+    <string name="peace_lily_description">
+        "Peace lilies are tropical, evergreen plants that thrive on the forest floor, where they receive dappled sunlight and
+consistent moisture. Replicating these conditions in the home is the key to getting your peace lily to be happy
+and healthy.
+With enough light, peace lilies may produce white to off-white flowers in the early summer and continue to bloom
+throughout the year. 
+Most household varieties of peace lily grow up to 16 inches tall, but larger outdoor cultivars can reach 6 feet in height.
+Peace lilies are not cold-hardy plants, so they may only be grown outdoors in warm, humid climates
+1. Insect infection
+A. Symptoms : Three insects attack Peace Lilies: Aphids, mealy bugs, and spider mites. Aphids: If your
+plant becomes covered with sticky slime, check for aphids. Mealy bugs: If your foliage begins to turn
+yellow and dry look for mealy bugs and a cottony mass between the plant’s stems and leaves. Spider
+Mites: Brown spots on the leaves and ‘webbing’ between the leaves are indications that you have a
+spider mite infection. 
+B. Management : Mealybugs live in colonies, so you will never just have one at a time to deal with. You will
+have a mass of them to handle. Clean the plant with alcohol to remove bugs or insects. Use a soft
+tissue, wipe the infected area, and treat with a good all-purpose organic pesticide, such as Neem Oil.
+2. Lack of water
+A. Symptoms : Peace lily starts to dehydrate and droop. Leaving a Peace Lily thirsty for too long can lead
+to yellow, dry and shriveled leaves.
+B. Management : Water at least once a week and keep the soil moist. Throughout the summer growing
+season, spritz the leaves with soft or distilled water. Water your plant less often in winter.
+3. Over watering
+A. Symptoms : A wilting peace lily with brown-edged leaves and skimpy, black-tipped roots has classic
+overwatering symptoms. Peace lilies with overwatering symptoms are highly susceptible to
+Rhiczoctonia, Cylindrocladium, Pythium and Phythophthora rots. The worst disorder, Cylindrocladium,
+surfaces with yellowing, wilting lower foliage. Dark-brown spots may appear on the petioles, or stalks
+between the leaves and stems. In the final stage of the disease, the upper plant pulls free of its peeling,
+black spongy roots. Rhiczoctonia attacks roots, stems and on peace lilies in moist, crowded conditions
+ leaves. Rhiczoctonia-infected stems with brown, sunken lesions at their bases may collapse. The
+fungus also causes brown spots and fine brown webbing on leaves. All three diseases share root-rot
+symptoms. only laboratory testing can distinguish them. Small, wilting yellow leaves indicate early-stage
+Phytophthora root rot. As the disease progresses, the root tips change from white to brown, gray or
+black. The discoloration eventually spreads through the entire root ball.
+B. Management : The best approach falls between waiting for the soil to dry completely before watering
+and watering so often that constantly stands in water. If the pot is diameter is smaller than 6 inches, water
+when the top 1 inch of medium feels dry when you insert your index finger into it. For plants in larger
+containers, let the top 2 inches of medium dry to the touch before watering. If your finger has difficulty
+penetrating to the correct depth, check to see if the plant is root-bound. Always plant your peace lilies in
+pots with drainage holes, and always water them until they begin to drain. Unless water is draining, the
+bulk of the peace lily is root ball isn't completely wet. The escaping water performs the additional service
+of washing out fertilizer salt residues. Accumulated salts can burn the roots and brown the foliage.
+Empty the pot is saucer as soon as the water stops draining.
+4. Sunburn
+A. Symptoms : Yellowing leaves indicate that the light is too strong, and brown leaves or streaks indicate
+scorching from direct sunlight. And Brown leaf tips, streaks or spots are caused by indirect sunburn.
+B. Management : Consider placing the plant six to eight feet away from a north- or west-facing window."
+    </string>
+
+    <string name="ponytail_palm_description">
+        Beaucarnea recurvata (elephant is foot, ponytail palm) is a species of plant in the family Asparagaceae, native to the
+states of Tamaulipas, Veracruz and San Luis Potosí in eastern Mexico. Despite its common name, it is not closely
+related to the true palms (Arecaceae). It has become popular in Europe and worldwide as an ornamental plant. There
+are 350-year-old Beaucarneas registered in Mexico.
+1. Cylindrocladium
+A. Symptoms : Initial leaf spots are usually round to oval in shape and vary in color from yellow to brown to
+black. The initial size may be as small as a pin point. Some leaf spots initially appear as water-soaked
+lesions. At some point during disease development, leaf spots will have a contrasting colored edge or
+halo - e.g., brown spot with a yellow halo, tan center with brown edge or gray center with black edge and
+a yellow halo. All color combinations are possible. As the leaf spots expand in size, the shape and
+coloration may change. As the disease progresses, leaf spots often coalesce (merge together) to form
+large areas of blighted tissue, hence, the term leaf blight. If the disease continues to develop, leaflets or
+the entire leaf may die prematurely.
+B. Management : Sanitation and water management are critical for leaf spot disease management. For
+water management, elimination of overhead irrigation or protection from rainfall is highly recommended.
+Leaf spots are minimal if leaves are kept dry. If this is not possible, time the irrigation so the leaves are
+wet for a minimal number of hours. This usually means irrigating in the hours before dawn. Increase air
+circulation to keep plants drier by increasing spacing between plants and making sure larger plants are
+not blocking air movement to smaller plants.
+Always be sure to assess your plant’s watering needs upon receiving it. Before giving your plant a drink,
+it is best to check the moisture level in the soil first to ensure it isn’t moist right beneath the surface. Also,
+consider aerating the soil of your plant before the initial watering. We compact the soil to avoid shifting
+during transit, so aerating can help the soil breathe and allow moisture to be released. Also rotate your
+plant periodically to ensure even growth on all sides and dust the stalks often so the plant can
+photosynthesize efficiently.
+2. Bugs
+A. Symptoms : Mealybugs commonly leave a white residue on a plant’s leaves that resembles cotton.
+B. Management : As with soft scale insects, an easy method of control is to apply alcohol with cotton swabs
+directly on the bug. Wiping down the foliage regularly and helping plants clean will help keep these white
+fuzzy bugs in check. For a mealy bug insecticide, if a plant becomes severely infested consider using
+safe natural organic neem oil sprays to control the pest or make your own homemade insecticidal
+soap or possibly horticultural oils.
+    </string>
+
+</resources>
